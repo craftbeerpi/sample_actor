@@ -1,5 +1,5 @@
 from modules import cbpi
-
+from modules.core.props import Property
 from modules.core.hardware import ActorBase
 
 @cbpi.actor
