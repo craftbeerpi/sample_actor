@@ -8,7 +8,7 @@ class SampleActor(ActorBase):
     prop1 = Property.Text("Property1", True, "1")
     
     def on(self, power=0):
-        print "SWITCH OFF %s" % (self.prop1)
+        print "SWITCH ON %s" % (self.prop1)
         
     def off(self, power=0):
         print "SWITCH OFF"
