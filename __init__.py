@@ -11,6 +11,6 @@ class SampleActor(ActorBase):
         print "SWITCH ON %s" % (self.prop1)
         
     def off(self, power=0):
-        print "SWITCH OFF"
+        print "SWITCH OFF "
 
 
